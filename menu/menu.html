@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+ <style>
 
+#map {
+  text-align: center; }
+
+iframe {
+  display: block;  
+  margin: 0 auto;  
+}
+
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +36,10 @@
         <h2>About Us</h2>
         <p>Welcome to Week 9 Cafe. We offer a variety of set menus and à la carte options, all crafted with fresh
             ingredients and attention to detail. Come and experience an unforgettable meal!</p>
-        <p><strong>Address:</strong> The Roots Restaurant Below Yum Yum Canteen</p>
+        <p><strong>Address:</strong> 2, Jalan Danau Saujana, Taman Danau Kota, 53000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.</p>
+        <section id="map" class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.600757311238!2d101.70794497914007!3d3.199098288463562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc39ed832201ef%3A0x5bfe47465777605d!2s2%2C%20Jalan%20Danau%20Saujana%2C%20Taman%20Danau%20Kota%2C%2053000%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1726722002641!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section> 
     </section>
 
     <main>
@@ -122,6 +135,28 @@
                 </div>
             </div>
             <h3>Ala Carte</h3>
+
+            <div class="ala-carte">
+                <h4><Strong>Pasta</Strong></h4>
+                <ul>
+                    <div class="menu-item">
+                        <img src="image/Spaghetti.jpg" alt="Spaghetti serve with carbonara or bolognese sauce" id="ala-carte">
+                        <li>Spaghetti serve with carbonara or bolognese sauce ---- RM12</li>
+                    </div>
+                    <div class="menu-item">
+                        <img src="image/Macaroni serve with carbonara or bolognese sauce.jpg" alt="Macaroni serve with carbonara or bolognese sauce" id="ala-carte">
+                        <li>Macaroni serve with carbonara or bolognese sauce ---- RM12</li>
+                    </div>
+                    <div class="menu-item">
+                        <img src="image/Cheese macaroni.jpg" alt="Cheese macaroni" id="ala-carte">
+                        <li>Cheese macaroni ---- RM13</li>
+                    </div>
+                    <div class="menu-item">
+                        <img src="image/Tortellini in brodo.jpg" alt="Tortellini in brodo" id="ala-carte">
+                        <li>Tortellini in brodo ---- RM13</li>
+                    </div>
+                </ul>
+            </div>
             <div class="ala-carte">
                 <h4>Beverage</h4>
                 <ul>
@@ -284,7 +319,7 @@
         </section>
     </main>
     <footer id="contact">
-        <p>For reservations or inquiries, contact us by email <strong>brendaRestaurant@gmail.com</strong> or call
+        <p>For reservations or inquiries, contact us by email <strong>brendarestaurant@gmail.com</strong> or call
             <strong>(011) 2345-6789</strong>
         </p>
     </footer>
